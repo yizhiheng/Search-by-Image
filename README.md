@@ -3,6 +3,13 @@ A basic Java implementation of "Search by Image"
 
 In this project, we use an algorithm called ‘Perceptual Hash Algorithms’, which works for creating a ‘fingerprint’ --- unique character string of every image and compare every fingerprint with the original image. The closer the result is, the more similar two images are.
 
+## Usage
+cd YOUR_FAVOURITE_PATH
+git clone git@github.com:yizhiheng/Search-by-Image.git
+cd Search-by-Image
+javac SimilarImageSearch.java
+java SimilarImageSearch
+
 ## Perceptual Hash Algorithm
 ### Step 1. Reduce Size
 Shrink the image to 8x8 pixels (total sum is 64 pixels). The effect of this step vanishes the detail of the image and keeps the basic information such like structure and brightness. What’s more, it can also remove the difference of the different size or scale.
