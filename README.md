@@ -8,7 +8,7 @@ cd YOUR_FAVOURITE_PATH
 
 git clone git@github.com:yizhiheng/Search-by-Image.git
 
-cd Search-by-Image
+cd Search-by-Image/src
 
 javac SimilarImageSearch.java
 
