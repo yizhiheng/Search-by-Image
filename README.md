@@ -5,10 +5,15 @@ In this project, we use an algorithm called ‘Perceptual Hash Algorithms’, wh
 
 ## Usage
 cd YOUR_FAVOURITE_PATH
+
 git clone git@github.com:yizhiheng/Search-by-Image.git
+
 cd Search-by-Image
+
 javac SimilarImageSearch.java
+
 java SimilarImageSearch
+
 
 ## Perceptual Hash Algorithm
 ### Step 1. Reduce Size
